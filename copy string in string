@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+    printf("enter main string");
+    char a[100];
+   fgets(a,100,stdin);
+   printf("secon]d string");
+   char b[50];
+   fgets(b,50,stdin);
+   int l1=strlen(a),l2=strlen(b);
+   printf("entr index");
+   int index;
+   scanf("%d",&index);
+    int i;
+    
+    for(i=0;i<l2-1;i++){
+        a[index+i]=b[i];
+    }
+      puts(a);
+
+   
+
+
+
+    
+    
+    
+}
